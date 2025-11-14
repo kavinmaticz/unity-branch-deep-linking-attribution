@@ -61,19 +61,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Branch\BranchEnums.cs" />
     <Compile Include="Assets\Branch\BranchContentMetadata.cs" />
-    <Compile Include="Assets\Branch\BranchQRCode.cs" />
     <Compile Include="Assets\Branch\BranchAndroidWrapper.cs" />
     <Compile Include="Assets\Branch\BranchUniversalObject.cs" />
+    <Compile Include="Assets\Branch\BranchLinkProperties.cs" />
+    <Compile Include="Assets\Branch\Demo\Scripts\RewardTransactionItem.cs" />
+    <Compile Include="Assets\Branch\Demo\Scripts\RewardsHistoryPanel.cs" />
+    <Compile Include="Assets\Branch\MiniJSON.cs" />
+    <Compile Include="Assets\Branch\BranchEnums.cs" />
+    <Compile Include="Assets\Branch\BranchQRCode.cs" />
     <Compile Include="Assets\Branch\Branch.cs" />
     <Compile Include="Assets\Branch\BranchData.cs" />
     <Compile Include="Assets\Branch\Demo\Scripts\BranchDemo.cs" />
-    <Compile Include="Assets\Branch\BranchLinkProperties.cs" />
-    <Compile Include="Assets\Branch\Demo\Scripts\RewardTransactionItem.cs" />
     <Compile Include="Assets\Branch\BranchEvent.cs" />
-    <Compile Include="Assets\Branch\Demo\Scripts\RewardsHistoryPanel.cs" />
-    <Compile Include="Assets\Branch\MiniJSON.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
